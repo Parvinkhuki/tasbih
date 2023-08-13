@@ -15,42 +15,46 @@
     }
 </style>
 </head>
-<body class="max-w-screen-2xl mx-auto">
+<body class="max-w-screen-2xl mx-7 lg:mx-auto">
     <section>
-        <h1 class="font-black text-center text-5xl text-orange-600 w-100% mt-40 lg:text-7xl" >DIGITAL TASBIH</h1>       
+        <h1 class="font-black text-center text-4xl text-orange-600 w-100% mt-40 lg:text-7xl" >DIGITAL TASBIH</h1>       
     </section>
-    <section class="grid mt-40 gap-8  md:grid md:grid-cols-2 lg:flex lg:justify-center">
+    <section class="grid mt-32 gap-8  md:grid md:grid-cols-2 lg:flex lg:justify-center">
         <div class="card bg-base-100 shadow-xl">
             <div class="card-body items-center text-center">
-              <h2 class="card-title"></h2>
-              <p>0</p>
+              <h2 class="card-title font-bold text-3xl mb-9">ALLHAMDULLAH</h2>
+              <p class="text-4xl mb-9 font-extrabold" id="allhamdulillahvalue"
+              >0</p>
               <div class="card-actions">
-                <button class="btn text-white text-base font-bold bg-orange-600 ">increment</button>
-                <button class="btn text-black text-base font-bold bg-orange-200">Decrement</button>
+                <button class="btn text-white text-base font-bold bg-orange-600" id="alhamdulillahBtn">increment</button>
+                <button class="btn text-black text-base font-bold bg-orange-200" id="Decrement1">Decrement</button>
               </div>
             </div>
           </div>
           <div class="card bg-base-100 shadow-xl">
     
             <div class="card-body items-center text-center">
-              <h2 class="card-title"></h2>
-              <p>0</p>
+              <h2 class="card-title font-bold text-3xl mb-9">SUBHANALLAH</h2>
+              <p class="text-4xl mb-9 font-extrabold" id="subhanallahvalue">0</p>
               <div class="card-actions">
-                <button class="btn text-white text-base font-bold bg-orange-600 ">increment</button>
-                <button class="btn text-black text-base font-bold bg-orange-200">Decrement</button>
+                <button class="btn text-white text-base font-bold bg-orange-600 " id="allhamdulillahBtn">increment</button>
+                <button class="btn text-black text-base font-bold bg-orange-200" id="Decrement2">Decrement</button>
               </div>
             </div>
           </div>
           <div class="card bg-base-100 shadow-xl">
             <div class="card-body items-center text-center">
-              <h2 class="card-title">S</h2>
-              <p>0</p>
+              <h2 class="card-title font-bold text-3xl mb-9" id="allahakbarvalue">ALLAHUAKBAR</h2>
+              <p class="text-4xl mb-9 font-extrabold">0</p>
               <div class="card-actions">
-                <button class="btn text-white text-base font-bold bg-orange-600 ">increment</button>
-                <button class="btn text-black text-base font-bold bg-orange-200">Decrement</button>
+                <button class="btn text-white text-base font-bold bg-orange-600 " id="allahuakbarBtn">increment</button>
+                <button class="btn text-black text-base font-bold bg-orange-200" id="Decrement3">Decrement</button>
               </div>
             </div>
           </div>
     </section>
+   <section class="flex justify-center my-6"> <button class="btn 
+    text-white font-bold bg-orange-600 shadow-xl" id="ResetBtn">Reset All</button></section>
+    <script src="/script.js"></script>
 </body>
 </html>
